@@ -1,0 +1,32 @@
+{
+    "name": "Senthilnathan",
+    "email": "vmtestpurpose@yahoo.com",
+    "username": "vmtestpurpose@yahoo.com",
+    "password": "Power@1234",
+    "imap": {
+        "host": "imap.mail.yahoo.com",
+        "port": 993,
+        "secure": true
+    },
+    "smtp": {
+        "host": "smtp.gmail.com",
+        "ssl": true
+    },
+    "twitter" : {
+        "consumerKey" : "fd9giZi1rj468K7MJzAStQ",
+        "consumerSecret" : "5aAkaYSPrV1CiALNqHBkchDoNrHfeNeLPvnfKSHhqA",
+        "accessTokenKey" : "2283604268-95zhkO8fgGVxOVG6Z0etS9MIs8ZX8PK6oZcHtIg",
+        "accessTokenSecret" : "96q7QRIgEq41In6QC1bqAxkl874NfVgneUV1VmzEUHFT0"
+    },
+    "webserver" : {
+        "port" : "3000",
+        "ip" : "127.0.0.1"
+    },
+     "mongodb" : {
+        "url" : "mongodb://mongouser:mongopwd@dharma.mongohq.com:10070/tweetsDB"
+    },
+     "cron" : {
+        "schedule" : "1 * * * * *"
+    }
+
+}
