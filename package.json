@@ -1,0 +1,11 @@
+{
+  "name": "email2tweet.server",
+  "subdomain": "senthilsweb-email2tweet.server",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "0.0.0-1",
+  "engines": {
+    "node": "0.10.x"
+  }
+}
